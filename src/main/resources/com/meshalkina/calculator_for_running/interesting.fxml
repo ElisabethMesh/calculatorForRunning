@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="150.0" prefWidth="400.0" style="-fx-background-color: #b6d3f3;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.meshalkina.calculator_for_running.controller.InterestingController">
+   <children>
+      <Text fx:id="interestingFact" layoutX="12.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="375.73675537109375">
+         <font>
+            <Font name="Georgia" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="OkButton" layoutX="183.0" layoutY="121.0" mnemonicParsing="false" onAction="#openNewStage" text="OK">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
