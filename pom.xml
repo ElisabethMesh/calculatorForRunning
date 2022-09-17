@@ -60,9 +60,13 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>
-                                com.meshalkina.calculator_for_running/com.meshalkina.calculator_for_running.CalculatorApplication
-                            </mainClass>
+                            <archive>
+                                <manifest>
+                                    <mainClass>
+                                        com.meshalkina.calculator_for_running.LauncherMain
+                                    </mainClass>
+                                </manifest>
+                            </archive>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
